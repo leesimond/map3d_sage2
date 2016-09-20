@@ -1,0 +1,27 @@
+{
+	"main_script": "map3d_sage2.js",
+	"icon": "pie-chart-diagram-icon.png",
+	"width": 2000,
+	"height": 375,
+  	"resize": "free",
+    "animation": true,
+	"dependencies": [
+		"vendor/jquery.min.js",
+		"vendor/d3.min.js",
+		"vendor/three.min.js",
+		"vendor/d3-threeD.js",
+		"vendor/OrbitControls.js",
+		"vendor/papaparse.js",
+		"vendor/Tween.js",
+		"map3d-html_S2.js"
+	],
+	"load": {
+		"goFullscreen": true
+	},
+	"title": "Visualisation SH",
+	"version": "1.0.0",
+	"description": "Visualisation of data",
+	"keywords": [ "d3", "three.js"],
+	"author": "Matt K, Vince C, Simond L",
+	"license": "SAGE2-Software-License"
+}
